@@ -1,6 +1,6 @@
 # tz-regions-districts
 
-A starter npm package for Tanzania Regions and their respective districts.
+A starter npm package for Tanzania regions and their respective districts.
 
 ## Install
 
