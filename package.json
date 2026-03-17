@@ -1,6 +1,12 @@
 {
   "name": "tz-regions-districts",
   "version": "0.1.0",
+  "author": "Yusuph Bakari <yuyahcodes@github.com> (https://github.com/yuyahcodes)",
+  "homepage": "https://github.com/yuyahcodes/tz-regions-districts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuyahcodes/tz-regions-districts.git"
+  },
   "description": "Tanzania regions and districts dataset for JavaScript and TypeScript apps.",
   "type": "module",
   "main": "./dist/index.js",
@@ -35,7 +41,6 @@
     "locations",
     "typescript"
   ],
-  "author": "",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.8.2"

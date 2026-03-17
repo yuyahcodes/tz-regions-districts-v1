@@ -57,3 +57,38 @@ npm publish --access public
 
 - Tanzania National Bureau of Statistics 2022 PHC administrative units publications
 - Public community-maintained Tanzania region/district datasets used only as scaffolding input
+
+## Author
+
+**Yusuph Bakari**
+
+- GitHub: [@yuyahcodes](https://github.com/yuyahcodes)
+- LinkedIn: [Yusuph Bakari](https://www.linkedin.com/in/yusuph-bakari/)
+
+---
+
+## Publishing to npm
+
+Follow these steps to publish this package to the npm registry:
+
+1. **Login to npm**:
+   If you haven't logged in, run:
+   ```bash
+   npm login
+   ```
+
+2. **Prepare the Package**:
+   Ensure you have updated the version in `package.json` if this is an update.
+   ```bash
+   npm version patch # or minor, major
+   ```
+
+3. **Build and Publish**:
+   Run the following command to clean, build, and publish:
+   ```bash
+   npm publish --access public
+   ```
+   *Note: The `prepublishOnly` script in `package.json` will automatically run `npm run clean` and `npm run build` for you.*
+
+4. **Verify**:
+   Go to `https://www.npmjs.com/package/tz-regions-districts` to see your package live!
