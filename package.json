@@ -30,7 +30,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist",
     "prepublishOnly": "npm run clean && npm run build"
   },
   "keywords": [
@@ -43,6 +43,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "rimraf": "^6.0.1",
     "typescript": "^5.8.2"
   }
 }
