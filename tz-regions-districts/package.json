@@ -1,0 +1,43 @@
+{
+  "name": "tz-regions-districts",
+  "version": "0.1.0",
+  "description": "Tanzania regions and districts dataset for JavaScript and TypeScript apps.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./regions": {
+      "types": "./dist/data/regions.d.ts",
+      "import": "./dist/data/regions.js"
+    },
+    "./flat": {
+      "types": "./dist/data/flat.d.ts",
+      "import": "./dist/data/flat.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "keywords": [
+    "tanzania",
+    "regions",
+    "districts",
+    "geodata",
+    "locations",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
